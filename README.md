@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Finora — Personal Finance Management System
 
 Finora is a full-stack personal finance management application designed to help users manage their finances, track transactions, monitor savings goals, and analyze their financial habits.
@@ -96,3 +97,7 @@ Backend: http://localhost:5000
 License
 
 This project is developed for educational and internship purposes.
+=======
+# Finora
+A full-stack personal finance management application to track transactions, manage savings goals, monitor net worth, and analyze financial activities using React, Node.js, Express, and MongoDB.
+>>>>>>> 0e3e4a98ddd8ab74f4a416ee992469c63b25f6a7
