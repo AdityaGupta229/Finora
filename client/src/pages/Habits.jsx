@@ -3,7 +3,7 @@ import axios from "axios";
 import { Plus, Trash2, CheckCircle2, Flame, Repeat2 } from "lucide-react";
 import {useNavigate} from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api/habits";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/habits";
 
 function getAuthConfig() {
   return {

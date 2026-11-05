@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Wallet, Mail, Lock, ArrowRight } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/auth";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -27,6 +27,7 @@ export default function Login() {
 
       localStorage.setItem("token", token);
       localStorage.setItem("user", JSON.stringify(user));
+      console.log("Login User",user);
      
 
       window.dispatchEvent(new Event("auth-change"));

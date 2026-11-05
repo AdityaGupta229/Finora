@@ -5,7 +5,7 @@ import axios from "axios";
 import { MessageSquare, Send, Clock, CheckCircle } from "lucide-react";
 import "./Feedback.css";
 
-const API = "http://localhost:5000/api/feedback";
+const API = "https://finora-backend-0qa8.onrender.com/api/feedback";
 
 function Feedback() {
   const [form, setForm] = useState({

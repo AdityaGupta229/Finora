@@ -44,8 +44,8 @@ import Feedback from "./pages/Feedback";
 import Transactions from "./pages/Transactions";
 import SettingsPage from "./pages/Settings";
 
-const API_URL = "http://localhost:5000/api/transactions";
-const GOALS_API_URL = "http://localhost:5000/api/goals";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/transactions";
+const GOALS_API_URL = "https://finora-backend-0qa8.onrender.com/api/goals";
 
 function getAuthConfig() {
   return {

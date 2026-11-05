@@ -4,7 +4,7 @@ import { Plus, Trash2, Target } from "lucide-react";
 import {Link , useNavigate} from "react-router-dom";
 import {addNotification} from "../utils/notifications.js";
 
-const API_URL = "http://localhost:5000/api/goals";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/goals";
 
 function getAuthConfig() {
   return {

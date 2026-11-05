@@ -6,7 +6,7 @@ import {
   ArrowUpRight, ArrowDownRight, X
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/transactions";
 
 const authConfig = () => ({
   headers: {

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Wallet, User, Mail, Lock, ArrowRight } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://finora-backend-0qa8.onrender.com/api/auth";
 
 export default function Signup() {
   const navigate = useNavigate();

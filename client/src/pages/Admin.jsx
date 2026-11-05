@@ -14,8 +14,8 @@ import {
   Clock,
 } from "lucide-react";
 
-const API = "http://localhost:5000/api/admin";
-const FEEDBACK_API = "http://localhost:5000/api/feedback";
+const API = "https://finora-backend-0qa8.onrender.com/api/admin";
+const FEEDBACK_API = "https://finora-backend-0qa8.onrender.com/api/feedback";
 
 export default function Admin() {
   const [stats, setStats] = useState(null);

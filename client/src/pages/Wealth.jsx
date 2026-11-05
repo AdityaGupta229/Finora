@@ -10,9 +10,9 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid,
 } from "recharts";
 
-const API = "http://localhost:5000/api/assets";
-const LIABILITY_API = "http://localhost:5000/api/liabilities";
-const NET_WORTH_API = "http://localhost:5000/api/net-worth";
+const API = "https://finora-backend-0qa8.onrender.com/api/assets";
+const LIABILITY_API = "https://finora-backend-0qa8.onrender.com/api/liabilities";
+const NET_WORTH_API = "https://finora-backend-0qa8.onrender.com/api/net-worth";
 
 const assetTypes = [
   "Savings", "Fixed Deposit", "Stocks", "Mutual Funds",
