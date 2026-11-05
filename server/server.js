@@ -30,7 +30,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://finora-frontend.onrender.com"
+      "https://finora-frontend-dw1b.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
